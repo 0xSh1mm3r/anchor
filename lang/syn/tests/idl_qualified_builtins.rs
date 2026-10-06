@@ -94,8 +94,8 @@ fn user_defined_types_named_like_builtins_stay_defined() {
     ] {
         assert!(
             output.contains(expected),
-            "Output did not treat a user-defined type as a defined type: '{expected}'. \
-             Got: '{output}'",
+            "Output did not treat a user-defined type as a defined type: '{expected}'. Got: \
+             '{output}'",
         );
     }
 }
